@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Public+Sans:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&');
+
+
+body{ 
+
+    background:#F9F9F9;
+}
+
+@media (max-width: 1200px)
+{
+    .cabecalho{ 
+        padding:0 20px;
+        margin-bottom: 50px;
+    }
+
+    .conteudo{
+        margin: 0 20px;
+    }
+
+
+}
+    /*o asterisco serve para estilizar todos
+    os elementos html da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none; /*retirar os pontos da lista*/
+}
+
+/*------------HEADER------------*/
+.cabecalho{
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+    margin-bottom: 100px;
+}
+
+.conteudo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0; /* 25px para cima e para baixo e 0 para a esquerda e para a direita */
+    max-width: 1080px; /*Não ultrapassar o tamanho de uma tela de notebook*/
+    margin: 0 auto; /*centralizar o conteudo*/
+    flex-wrap: wrap; /*quebrar no responsivo*/
+}
+
+.logo{ /*Esta sendo aplicado no menu e no rodapé*/
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .navegacao .menu{
+    display: flex;
+    font-weight: 400;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.cabecalho .navegacao .menu .item .item-menu{
+    color: white;
+}
+
+.cabecalho .navegacao .logo .titulo{
+    margin-bottom: 200px;
+    font-weight: 400;
+    color: white;
+}
+
+p.titulo {
+    font-weight: 400;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color:white;
+}
+.search{ /*Barra e pesquisa*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 100px 0 0 0 ;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+
+}
+
+.search a.tituloLupa{
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-left: 10px;
+}
+/*------------HEADER------------*/
+
+/*----------SESSÃO 1------------*/
+.conteudo .cont-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /*quebrar no responsivo*/
+    max-width: 1080px; /*Não ultrapassar o tamanho de uma tela de notebook*/
+    padding: 25px; /* 25px para cima e para baixo e 0 para a esquerda e para a direita */
+    margin: 0 auto; /*centralizar o conteudo*/
+    background: white;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.conteudo .cont-1 .data{
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    margin-bottom: 24px;
+}
+
+.conteudo .cont-1 h2{
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1A202C;
+    margin-bottom: 8px;
+}
+
+.conteudo .cont-1 .cont-blog{
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #717171;
+}
+/*----------SESSÃO 1------------*/
+
